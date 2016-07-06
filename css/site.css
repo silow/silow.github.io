@@ -1,0 +1,75 @@
+/* reset */
+*{
+	box-sizing: border-box;
+}
+a,a:hover{
+	text-decoration: none;
+}
+body{
+	font:menu;
+	font-size: 14px;
+	line-height: 20px;
+	color:#333;
+	background: #fff;
+	-webkit-font-smoothing:antialiased;
+}
+body,p,dl,dt,dd,h1,h2,h3,h4,h5,h6,fieldset,legend,select,textarea{
+	margin:0;
+	padding:0;
+}
+b,dt,th{font-weight: normal;}
+cite,em,i{
+	font-style: normal;
+}
+button,input,select,textarea,{
+	font:inherit;
+	border:1px solid #ccc;
+}
+button,img,input[type=button]{
+	outline: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: inherit;
+	line-height: 1.2;
+	font-weight: 500;
+	color: inherit;
+}
+h1,.h1{ font-size: 38px}
+h2,.h2{ font-size: 32px}
+h3,.h3{ font-size: 26px}
+h4,.h4{ font-size: 22px}
+h5,.h5{ font-size: 18px}
+h6,.h6{ font-size: 15px}
+h1 small,h1 .small,
+h2 small,h2 .small,
+h3 small,h3 .small,
+h4 small,h4 .small,
+h5 small,h5 .small,
+h6 small,h6 .small{
+	font-size: 65%;
+	line-height: 1;
+	color:#666;
+}
+.h1,.h2,.h3,.h4,.h5,.h6{
+	line-height:1.2;
+}
+table{
+	width:100%;
+	table-layout:fixed;
+	border-collapse: collapse;
+}
+dt,th{
+	text-align: left;
+}
+small,.small{font-size: 80%}
+textarea{
+	resize: none;
+}
+
+.text-left{text-align: left}
+.text-right{text-align: right}
+.text-center{text-align: center}
+.text-ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+
